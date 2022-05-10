@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,300,500,600|Oxanium:400,700,500,600|Poppins:400,600,900|Inter:700");
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+.wallet-home{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.metamask{
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: none;
+    background: #dc7609;
+    cursor: pointer;
+}
+
+.meta-span, .coin-span{
+    font-family:' Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+color: #fff;
+}
+
+.trustwallet{
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: none;
+    background: #0a90dd;
+    cursor: pointer;
+}
+.trust-span{
+    font-family:' Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+color: rgb(5, 12, 49);
+}
+
+.coinbase{
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: none;
+    background: rgb(5, 12, 49);
+    cursor: pointer;
+}

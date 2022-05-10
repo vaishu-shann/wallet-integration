@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'MADE Outer Sans Alt';
+    src: url('MADEOuterSansAlt-Black.woff2') format('woff2'),
+        url('MADEOuterSansAlt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans Alt';
+    src: url('MADEOuterSansAlt.woff2') format('woff2'),
+        url('MADEOuterSansAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans Alt';
+    src: url('MADEOuterSansAlt-Bold.woff2') format('woff2'),
+        url('MADEOuterSansAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans Alt';
+    src: url('MADEOuterSansAlt-Light.woff2') format('woff2'),
+        url('MADEOuterSansAlt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans Alt';
+    src: url('MADEOuterSansAlt-Thin.woff2') format('woff2'),
+        url('MADEOuterSansAlt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans Alt';
+    src: url('MADEOuterSansAlt-Medium.woff2') format('woff2'),
+        url('MADEOuterSansAlt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('MADEOuterSans-Light.woff2') format('woff2'),
+        url('MADEOuterSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('MADEOuterSans-Black.woff2') format('woff2'),
+        url('MADEOuterSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('MADEOuterSans-Bold.woff2') format('woff2'),
+        url('MADEOuterSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('MADEOuterSans.woff2') format('woff2'),
+        url('MADEOuterSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('MADEOuterSans-Thin.woff2') format('woff2'),
+        url('MADEOuterSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('MADEOuterSans-Medium.woff2') format('woff2'),
+        url('MADEOuterSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

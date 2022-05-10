@@ -1,0 +1,26 @@
+$primaryColor: #3BAAFA;
+$secondaryColor: #8D8D8D;
+$leftMenuWidth: 85px;
+
+:export {
+    primaryColor: $primaryColor;
+    secondaryColor: $secondaryColor;
+    leftMenuWidth: $leftMenuWidth;
+}
+
+$body-bg: black;
+$font-size-base: 0.875rem;
+
+/* import bootstrap to set changes */
+
+// @import "~bootstrap/scss/bootstrap";
+
+.btn {
+    font-family: Montserrat;
+}
+
+button {
+    &:focus, &:active {
+        outline: none;
+    }
+}

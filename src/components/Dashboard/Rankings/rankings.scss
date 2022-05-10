@@ -1,0 +1,29 @@
+.global-rankings {
+  margin-top: 20px;
+  width: 326px;
+  padding: 28px 26.4px 28px 28px;
+  border-radius: 25px;
+  background-color: rgba(4, 4, 4, 0.5);
+
+  .header {
+    flex-grow: 0;
+    font-family: Oxanium;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+}
+
+.rank-card {
+  margin-top: 10px;
+  padding: 12px 20px 12px 15px;
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  background-color: rgba(43, 51, 61, 0.5);
+}

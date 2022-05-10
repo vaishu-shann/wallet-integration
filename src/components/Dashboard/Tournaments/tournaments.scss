@@ -1,0 +1,167 @@
+.tournaments-container {
+  margin: 0 19px 24px 275px;
+  overflow: overlay;
+
+  .tournaments {
+    width: 700px;
+    padding: 28px;
+    border-radius: 25px;
+    background-color: rgba(4, 4, 4, 0.5);
+
+    .title {
+      height: 48px;
+      flex-grow: 0;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
+
+    .header {
+      flex-grow: 0;
+      font-family: Oxanium;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
+
+    .chip-container {
+      margin: 15px 0 16px;
+
+      .chip {
+        width: 96px;
+        height: 36px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #30353A;
+        cursor: pointer;
+
+        span {
+          font-family: Oxanium;
+          font-size: 14px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #828282;
+        }
+
+        &.selected {
+          border: 2px solid #0858D3;
+
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .joined-title {
+      margin-top: 15px;
+      span {
+        height: 23px;
+        font-family: Oxanium;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+      }
+    }
+  }
+
+  .carousel-container {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(4, 4, 4, 0.5);
+  }
+  .coming-soon{
+    width: 566px;
+    height: 48px;
+    margin: 127px 112px auto 59px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .nft-collnz{
+    width: 486px;
+    height: 65px;
+    margin:auto 192px auto 59px ;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  
+  }
+  .bonnus-points{
+    width: 449px;
+    
+    margin:auto 229px 230px 59px;
+    font-family: Oxanium;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5;
+  }
+}
+
+.tournament-card {
+  margin: 8px 0;
+  padding: 15px;
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(64px);
+  backdrop-filter: blur(64px);
+  background-color: rgba(43, 51, 61, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span {
+    font-family: Oxanium;
+  }
+
+  .button-container {
+    .join {
+      width: 110px;
+      background: #0e9547;
+      span {
+        font-family: Montserrat;
+        text-shadow: 0 1px 5px rgba(136, 13, 13, 0.2), 0 3px 4px rgba(123, 12, 12, 0.12), 0 2px 4px rgba(91, 26, 26, 0.14);
+      }
+    }
+  }
+}

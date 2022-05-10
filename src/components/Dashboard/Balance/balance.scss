@@ -1,0 +1,103 @@
+.dashboard-right-sidebar {
+}
+
+.balance-container {
+  width: 326px;
+  padding: 28px 26.4px 28px 28px;
+  border-radius: 25px;
+  background-color: rgba(4, 4, 4, 0.5);
+
+  span {
+    font-family: Oxanium;
+  }
+
+  .background {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    height: 233px;
+    aspect-ratio: auto;
+    background-image: url("./../../../assets/img/icons/balance_background.png");
+    background-size: cover;
+
+    .pool_container {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+
+      .form-select {
+        border-radius: 20px;
+        background-image: url("./../../../assets/img/icons/icon_dropdown.png");
+        background-size: 30px 25px;
+        color: white;
+
+        &:active, &:focus {
+          box-shadow: none;
+          outline: none;
+        }
+      }
+    }
+
+    .bal_container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      span:first-child {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 100%;
+      }
+    }
+
+    .val_amount {
+      color: white;
+      font-family: Oxanium;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
+
+    .staking_amount {
+      position: absolute;
+      color: white;
+      left: 50%;
+      bottom: 30px;
+      transform: translateX(-50%);
+      font-family: Oxanium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+    }
+  }
+
+  .amount_value {
+    font-family: MADE Outer Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+  }
+
+  .buttons-container {
+    .stake {
+      width: 160px;
+      height: 60px;
+    }
+    .unstake {
+      width: 100px;
+      height: 60px;
+      background-color: rgba(4, 4, 4, 0.5);
+      border: 2px solid #2354c0;
+    }
+  }
+}
