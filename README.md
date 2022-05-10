@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Metamask and trustwallet integration with static dashboard.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Desktop view [Dashboard]:
+![image](https://user-images.githubusercontent.com/52348398/167564537-6f74b9b9-1c0a-4ed9-92bf-a69bf16db4f1.png)
+
+## Tab view [Dashboard]:
+![tab-view](https://user-images.githubusercontent.com/52348398/167564630-c018a2d7-0dc9-4202-89a9-fec226212d14.png)
+
+## Authentication page:
+![image](https://user-images.githubusercontent.com/52348398/167565065-b327e9b8-8797-43b6-8684-3699db610818.png)
+
 
 ## Available Scripts
 
